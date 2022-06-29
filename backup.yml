@@ -1,7 +1,7 @@
 ---
-- name: perform backup
-  uri:
-    url: https://api.eu-de.databases.cloud.ibm.com/v5/ibm/deployments/crn:v1:bluemix:public:databases-for-mysql:eu-de:a%2F45aa02a916044864a0a8134b59ae4eef:50c5358f-bf0e-47e7-842b-a0a40f5509cf::/backups
-    method: POST
-    headers:
-      Authorization: Bearer 
+   - name: perform backup
+     uri:
+       url: https://api.eu-de.databases.cloud.ibm.com/v5/ibm/deployments/crn:v1:bluemix:public:databases-for-mysql:eu-de:a%2F45aa02a916044864a0a8134b59ae4eef:50c5358f-bf0e-47e7-842b-a0a40f5509cf::/backups
+       method: POST
+       headers:
+         Authorization: Bearer 
